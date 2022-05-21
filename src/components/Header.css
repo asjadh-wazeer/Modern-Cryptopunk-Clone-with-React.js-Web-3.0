@@ -1,0 +1,68 @@
+.header {
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > div {
+    margin: 10px;
+}
+
+.punkLogo {
+    width: 200px;
+}
+.searchBar {
+    background-color: #1c1c1e;
+    height: 50px;
+    flex:1; /*Search bara full width edukka wakkim*/
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+}
+.searchIconContainer {
+    margin: 10px;
+}
+.searchInput {
+    background-color: transparent; /*We don't want background color*/
+    border: none;
+    width: 100%;
+    outline: none;
+    color: #eee;
+    font-size: 16px;
+}
+.headerItems {
+    display: flex;
+    /* justify-content: space-between;  -> doesn't work in this case, bcz flex:1 endu kuduttu ikiradala*/
+
+}
+.headerItems > p {
+    margin: 10px;
+}
+.headerActions {
+    display: flex;
+    align-items: center;
+}
+
+.headerActions > div {
+    margin: 10px;
+
+}
+.themeSwitchContainer {
+    display: flex;
+    background-color: #1c1c1e;
+    border-radius: 50px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain; /*1:3:26 -> this will contain image & make it look a lot nicer*/
+}
+.themeSwitchContainer > img {
+    height: 25px;
+}
+.loginButton {
+    background: linear-gradient(to right, #59f9b7, #66feea);
+    padding: 15px 48px;
+    border-radius: 50px;
+    color: black;
+}
